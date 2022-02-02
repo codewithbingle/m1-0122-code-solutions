@@ -1,0 +1,21 @@
+/* stylelint-disable selector-class-pattern */
+
+.blackButton {
+  font-size: 20px;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+}
+
+thead > tr > th {
+  color: white;
+  background-color: black;
+}
+
+tr:nth-child(2n+1) {
+  background-color: lightgray;
+}
