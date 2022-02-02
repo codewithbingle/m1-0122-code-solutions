@@ -11,11 +11,11 @@ button:hover {
   color: white;
 }
 
-thead {
+thead > tr > th {
   color: white;
   background-color: black;
 }
 
-.shade {
+tr:nth-child(2n+1) {
   background-color: lightgray;
 }
