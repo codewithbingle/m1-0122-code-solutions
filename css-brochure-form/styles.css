@@ -1,0 +1,66 @@
+/* style-lint */
+* {
+  box-sizing: border-box;
+}
+
+.extra {
+  width: 10%;
+  border: 5px solid white;
+}
+
+section {
+  width: 80%;
+  border: 1px;
+  float: left;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(241 132 132);
+  font-family: "Brandon Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  border: 2px;
+  font-size: 15px;
+}
+
+label {
+  padding: 0 0 0 10px;
+  font-family: "Brandon Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+input {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 425px;
+  height: 30px;
+  padding: 8px;
+  margin: 5px;
+}
+
+select {
+  width: 425px;
+  height: 30px;
+  border-radius: 5px;
+  background: rgb(218 218 218);
+  margin-left: 5px;
+}
+
+button {
+  padding: 5px;
+  border: 1px solid rgb(241 132 132);
+  border-radius: 15px;
+  background-color: rgb(241 132 132);
+  color: white;
+  font-family: "Brandon Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  width: 90px;
+  margin: 5px;
+  float: right;
+}
