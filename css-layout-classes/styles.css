@@ -1,0 +1,28 @@
+body {
+  max-width: 800px;
+  margin: auto;
+}
+
+header {
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.row {
+  display: flex;
+}
+
+.one-fourth {
+  width: 25%;
+  padding: 10px;
+}
+
+.column-thirty {
+  width: 30%;
+  padding: 0 10px;
+}
+
+.column-seventy {
+  width: 70%;
+  padding: 20px;
+}
