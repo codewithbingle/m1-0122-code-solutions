@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #05a8f3;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.image-logo {
+  width: 75%;
+  height: 260px;
+  border-radius: 50%;
+  background: white;
+  flex: 1;
+  object-fit: cover;
+}
