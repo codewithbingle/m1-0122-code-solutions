@@ -5,8 +5,7 @@
 .container {
   padding: 0;
   background-color: #05a8f3;
-  /* stylelint-disable-next-line font-family-name-quotes */
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   margin: 20px 40px;
   padding-top: 10px;
   padding-bottom: 15px;
@@ -31,7 +30,6 @@
   background-color: #05a8f3;
   padding: 15px 20px;
   align-items: center;
-  flex-wrap: wrap;
   justify-content: space-between;
   border-radius: 50px;
 }
@@ -43,12 +41,14 @@
   border-radius: 50%;
   object-fit: fill;
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .resize-img {
-  width: 75%;
-  height: 260px;
-  border-radius: 50%;
+  width: 130px;
+  height: 100px;
 }
 
 .images-column h3 {
