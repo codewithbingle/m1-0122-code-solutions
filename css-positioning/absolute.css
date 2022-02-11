@@ -5,6 +5,7 @@
   background-size: cover;
 
   /* your code here */
+  position: relative;
 }
 
 .meme > img {
@@ -16,7 +17,7 @@
 
   /* your code here */
   position: absolute;
-  top: 40px;
+  top: 10px;
   left: 230px;
 }
 
@@ -30,12 +31,14 @@
   text-transform: uppercase;
 
   /* your code here */
-  position: relative;
-  top: 200px;
+  position: absolute;
+  width: 100%;
+  top: 160px;
 }
 
 .overlay {
   background: linear-gradient(transparent, rgb(0 0 0 / 75%));
 
   /* your code here */
+  position: absolute;
 }
