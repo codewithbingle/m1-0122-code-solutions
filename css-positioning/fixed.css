@@ -7,7 +7,10 @@ html {
   text-align: center;
 
   /* your code here */
+
   position: fixed;
   right: 25%;
   left: 25%;
+
+  /* right and left can have the value of 0 */
 }
