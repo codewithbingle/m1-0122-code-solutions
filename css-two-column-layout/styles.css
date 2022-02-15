@@ -23,17 +23,20 @@ header > p {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  width: 1200px;
 }
 
 .row {
   flex-basis: calc(100% / 2);
+  width: 100%;
   border: 10px;
   padding: 30px;
 }
 
-.column {
+.col-one-half {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  width: 50%;
 }
 
 img {
