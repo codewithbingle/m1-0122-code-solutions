@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-logo {
+  height: 85px;
+  width: 100px;
+}
+
+.first-row {
+  width: 80%;
+  height: 300px;
+  background-image: url("./images/hero.jpg");
+  background-size: cover;
+  color: white;
+  filter: grayscale(45%);
+}
+
+.dark-gray-footer {
+  background: rgb(65 63 63);
+  color: white;
+}
+
+.bottom-footer {
+  background: rgb(235 232 232);
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
