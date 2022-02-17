@@ -4,7 +4,7 @@
 
 .container {
   background-color: whitesmoke;
-  margin: 10px 50px;
+  margin: 50px auto;
   padding: 50px 25px;
   border-bottom: 50px;
 }
@@ -17,6 +17,11 @@ h2 {
 .row {
   display: flex;
   justify-content: center;
+}
+
+.col-one-fourth {
+  height: 75%;
+  width: auto;
 }
 
 .large-image {
@@ -41,7 +46,7 @@ h4 {
   font-size: 0.75rem;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .container,
   .row,
   .col-one-fourth {
