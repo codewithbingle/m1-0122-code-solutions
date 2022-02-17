@@ -25,9 +25,30 @@ header {
   filter: grayscale(45%);
 }
 
+.second-row {
+  display: flex;
+}
+
 .dark-gray-footer {
-  background: rgb(65 63 63);
+  background: rgb(97 95 95);
   color: white;
+  display: flex;
+}
+
+.col-one-of-three-right {
+  display: flex;
+  align-content: flex-end;
+  justify-content: flex-start;
+  flex-direction: column;
+  list-style: none;
+  position: relative;
+  left: 600px;
+}
+
+.col-one-of-three-right,
+li {
+  align-self: flex-start;
+  padding: 10px;
 }
 
 .bottom-footer {
