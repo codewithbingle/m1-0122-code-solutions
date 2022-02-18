@@ -1,7 +1,7 @@
 // convertMinutesToSeconds
 function convertMinutesToSeconds(minutes) {
-  var product = minutes * 60;
-  return product;
+  var seconds = minutes * 60;
+  return seconds;
 }
 
 var convertMinutesToSecondsResult = convertMinutesToSeconds(5);
@@ -10,7 +10,8 @@ console.log('convertMinutesToSecondsResult: ', convertMinutesToSecondsResult);
 
 // greet(name)
 function greet(name) {
-  return 'Hello' + ' ' + name + '!';
+  var greeting = 'Hello ' + name + '!';
+  return greeting;
 }
 
 var greetResult = greet('Bingle');
@@ -27,7 +28,8 @@ console.log('The result of the area: ', getAreaResult);
 
 // getFirstName(person)
 function getFirstName(person) {
-  return person.firstName;
+  var firstName = person.firstName;
+  return firstName;
 }
 
 var getFirstNameResult = getFirstName({ firstName: 'Bingle', lastName: 'Padilla' });
@@ -36,7 +38,10 @@ console.log('The first name of the person is: ', getFirstNameResult);
 
 // getLastElement(array)
 function getLastElement(array) {
-  return array[array.length - 1];
+  var lastIndex = array.length - 1;
+  var lastElement = array[lastIndex];
+  return lastElement;
+  // return array[array.length - 1];
 }
 
 var getLastElementResult = getLastElement(['propane', 'and', 'propane', 'accessories']);
