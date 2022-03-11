@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(245 240 212);
+}
+
+.row {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.room-on {
+  background-color: rgb(245 240 212);
+}
+
+.room-off {
+  background-color: rgb(24 23 23);
+}
+
+.lightbulb-on {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(243 231 123);
+  box-shadow: 0 0 30px gold;
+}
+
+.lightbulb-off {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(68 67 67);
+  box-shadow: 0 0 30px rgb(39 38 38);
+}
