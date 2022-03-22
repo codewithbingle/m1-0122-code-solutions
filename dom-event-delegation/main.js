@@ -7,6 +7,7 @@ function handleClick(event) {
   console.log('event.target: ', event.target);
   console.log('event.target.tagName: ', event.target.tagName);
   if (event.target && event.target.tagName === 'BUTTON') {
+    // if (event.target.tagName !=== 'BUTTON')
     var $liElement = event.target.closest('.task-list-item');
     console.log('closet .task-list-item: ', $liElement);
     $liElement.remove();
