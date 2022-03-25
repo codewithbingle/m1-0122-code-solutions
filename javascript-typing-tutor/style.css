@@ -29,3 +29,47 @@ body {
 .red-border-bottom {
   border-bottom: 4px solid rgb(200 0 0);
 }
+
+.row-completion-reset {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: gray;
+  width: 100vw;
+  height: 100vh;
+}
+
+.col-completion-reset {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 20px;
+  width: 500px;
+  height: 200px;
+  border-radius: 5px;
+  white-space: normal;
+  font-size: 16px;
+}
+
+.reset-button {
+  background-color: rgb(230 36 36);
+  color: white;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+.align-center {
+  text-align: center;
+  flex-basis: 100%;
+}
